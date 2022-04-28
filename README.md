@@ -1,4 +1,4 @@
-# frontend
+# frontend, backend
 
 ## Project setup
 ```
@@ -7,7 +7,9 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+SET DEBUG=backend:* & npm start
+or node ./bin/www
+or nodemon ./bin/www
 ```
 
 ### Compiles and minifies for production
